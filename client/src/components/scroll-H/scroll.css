@@ -1,0 +1,51 @@
+#container {
+  background-color: #999;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+.box {
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+}
+
+#track {
+  height: 100vh;
+  width: 900vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.where {
+  height: 20px;
+  width: 40px;
+}
+#containerr {
+  display: flex;
+}
+/* .posB {
+  margin-left: 300px;
+  margin-top: 350px;
+}
+.posM {
+  margin-left: 600px;
+  margin-top: 350px;
+}
+.posT {
+  margin-left: 500px;
+} */
+
+.one {
+  background-color: #45ccff;
+}
+.two {
+  background-color: #49e83e;
+}
+.three {
+  background-color: #edde05;
+}
+.four {
+  background-color: #e84b30;
+}
