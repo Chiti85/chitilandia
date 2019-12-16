@@ -1,35 +1,43 @@
 import React, { Component } from "react";
 import "./scroll.css";
 import { Link } from "react-router-dom";
+import Player from "../Player";
+import Cloud from "../clouds/clouds";
+import Logo from "../logos/logo";
+import Where from "../front-where/where";
 
 class ScrollH extends Component {
   constructor(props) {
     super(props);
+
+    this.redirectTrack = this.redirectTrack.bind(this);
+  }
+
+  redirectTrack() {
+    if (window.scrollX <= 0) {
+      console.log(window.scrollX);
+      this.props.history.push("/");
+    } else if (window.scrollX <= window.innerWidth) {
+      this.props.history.push("/where");
+    } else if (window.scrollX <= window.innerWidth * 2) {
+      this.props.history.push("/tecSkill");
+    } else if (window.scrollX <= window.innerWidth * 3) {
+      this.props.history.push("/proj");
+    } else if (window.scrollX <= window.innerWidth * 4) {
+      this.props.history.push("/leismo");
+    } else if (window.scrollX <= window.innerWidth * 5) {
+      this.props.history.push("/wExp");
+    } else if (window.scrollX <= window.innerWidth * 6) {
+      this.props.history.push("/softSkills");
+    } else if (window.scrollX <= window.innerWidth * 7) {
+      this.props.history.push("/edu");
+    } else if (window.scrollX <= window.innerWidth * 8) {
+      this.props.history.push("/contact");
+    }
   }
 
   newUrl() {
-    document.onscroll = () => {
-      if (window.scrollX <= 0) {
-        console.log(window.scrollX);
-        this.props.history.push("/");
-      } else if (window.scrollX <= window.innerWidth) {
-        this.props.history.push("/where");
-      } else if (window.scrollX <= window.innerWidth * 2) {
-        this.props.history.push("/tecSkill");
-      } else if (window.scrollX <= window.innerWidth * 3) {
-        this.props.history.push("/proj");
-      } else if (window.scrollX <= window.innerWidth * 4) {
-        this.props.history.push("/leismo");
-      } else if (window.scrollX <= window.innerWidth * 5) {
-        this.props.history.push("/wExp");
-      } else if (window.scrollX <= window.innerWidth * 6) {
-        this.props.history.push("/softSkills");
-      } else if (window.scrollX <= window.innerWidth * 7) {
-        this.props.history.push("/edu");
-      } else if (window.scrollX <= window.innerWidth * 8) {
-        this.props.history.push("/contact");
-      }
-    };
+    document.addEventListener("scroll", this.redirectTrack);
   }
 
   update(place) {
@@ -54,7 +62,7 @@ class ScrollH extends Component {
   }
 
   componentWillUnmount() {
-    document.onscroll = null;
+    document.removeEventListener("scroll", this.redirectTrack);
   }
 
   render() {
@@ -62,6 +70,10 @@ class ScrollH extends Component {
     return (
       <div id="container">
         <div id="track">
+          <Cloud />
+          <Logo />
+          <Where />
+          <Player />
           <div id="about" className="box one">
             <div>1</div>
           </div>

@@ -1,0 +1,52 @@
+.logoDetailA {
+  height: 80px;
+  width: 70px;
+  top: 175px;
+  left: 225vw;
+  z-index: 10000;
+  position: absolute;
+}
+
+.logoMoveA {
+  animation-name: UpD;
+  animation-duration: 1.6s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  transition-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes UpD {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
+
+.shadowDetailA {
+  height: 80px;
+  width: 70px;
+  top: 178px;
+  left: 224.2vw;
+  z-index: 900;
+  position: absolute;
+}
+.shadowMoveA {
+  animation-name: UpS;
+  animation-duration: 1.6s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  transition-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes UpS {
+  from {
+    transform: translateY(2);
+  }
+  to {
+    transform: translateY(14px);
+  }
+}

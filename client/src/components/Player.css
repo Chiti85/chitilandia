@@ -1,0 +1,14 @@
+.hidden {
+  z-index: -1000;
+}
+.shown {
+  z-index: 1000;
+}
+
+.player {
+  position: fixed;
+  left: 0;
+  top: 445px;
+  height: 200px;
+  width: 200px;
+}

@@ -11,5 +11,5 @@ const meetingPointsSchema = new Schema({
   cords: { type: { type: String }, coordinates: [Number] }
 });
 
-const MeetingP = mongoose.model("MPoints", meetingPointsSchema);
+const MeetingP = mongoose.model("MeetingP", meetingPointsSchema);
 module.exports = MeetingP;

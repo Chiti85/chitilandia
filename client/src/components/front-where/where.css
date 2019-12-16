@@ -1,0 +1,55 @@
+.berlinD {
+  height: 400px;
+  width: 200px;
+  left: 115vw;
+  top: 60px;
+  z-index: 1000;
+  position: absolute;
+  opacity: 1;
+  /* animation: opacityW; */
+}
+
+.berlinS {
+  height: 400px;
+  width: 200px;
+  left: 115vw;
+  top: 60px;
+  z-index: 900;
+  position: absolute;
+}
+.madridD {
+  height: 400px;
+  width: 200px;
+  left: 145vw;
+  top: 60px;
+  z-index: 1000;
+  position: absolute;
+  opacity: 1;
+}
+
+.madridS {
+  height: 400px;
+  width: 200px;
+  left: 145vw;
+  top: 60px;
+  z-index: 900;
+  position: absolute;
+}
+
+@keyframes opacityW {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.75;
+  }
+  75% {
+    opacity: 0.25;
+  }
+  99.999% {
+    opacity: 0.01;
+  }
+  100% {
+    opacity: 0;
+  }
+}
