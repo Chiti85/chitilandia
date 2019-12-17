@@ -13,4 +13,8 @@ app.use("/", require("./routes/index"));
 app.use("/MPoint", require("./routes/api.routes"));
 // CAMBIO
 
+app.use((req, res) => {
+  res.sendFile(__dirname + "/public/index.html");
+});
+
 module.exports = app;

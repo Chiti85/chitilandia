@@ -17,8 +17,9 @@
     "react-scrollchor": "^6.0.0"
   },
   "scripts": {
-    "start": "dotenv -e .env react-scripts start",
-    "build": "dotenv -e .env react-scripts build",
+    "start": "dotenv -e .env.dev react-scripts start",
+    "build": "dotenv -e .env.dev react-scripts build",
+    "build-prod":"dotenv -e .env.prod react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
