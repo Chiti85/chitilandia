@@ -1,5 +1,5 @@
 require("dotenv").config();
-
+require("hbs");
 const express = require("express");
 const app = express();
 
