@@ -1,0 +1,40 @@
+.AboutSize {
+  width: 400px;
+  height: 70px;
+  z-index: 1000;
+  position: absolute;
+  left: 36vw;
+  top: 70px;
+}
+.squareSize {
+  width: 400px;
+  height: 270px;
+  z-index: 1000;
+  position: absolute;
+  left: 43vw;
+  top: 195px;
+}
+.photoSize {
+  width: 170px;
+  height: 220px;
+  z-index: 1000;
+  position: absolute;
+  left: 37vw;
+  top: 195px;
+}
+#div1p {
+  display: block;
+  z-index: 1300;
+  position: absolute;
+  left: 44vw;
+}
+#containerX {
+  width: 320px;
+  height: 250px;
+  z-index: 1300;
+  position: absolute;
+  left: 47vw;
+  top: 238px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.9em;
+}
