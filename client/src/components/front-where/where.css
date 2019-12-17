@@ -1,8 +1,8 @@
 .berlinD {
-  height: 400px;
+  height: 350px;
   width: 200px;
   left: 115vw;
-  top: 60px;
+  top: 110px;
   z-index: 1000;
   position: absolute;
   opacity: 1;
@@ -10,28 +10,45 @@
 }
 
 .berlinS {
-  height: 400px;
+  height: 350px;
   width: 200px;
   left: 115vw;
-  top: 60px;
+  top: 110px;
   z-index: 900;
   position: absolute;
 }
 .madridD {
-  height: 400px;
-  width: 200px;
+  height: 350px;
+  width: 205px;
   left: 145vw;
-  top: 60px;
+  top: 110px;
   z-index: 1000;
   position: absolute;
   opacity: 1;
 }
 
 .madridS {
-  height: 400px;
+  height: 350px;
   width: 200px;
   left: 145vw;
-  top: 60px;
+  top: 110px;
+  z-index: 900;
+  position: absolute;
+}
+.tenerifeD {
+  height: 580px;
+  width: 200px;
+  left: 175vw;
+  top: 110px;
+  z-index: 1000;
+  position: absolute;
+  opacity: 1;
+}
+.tenerifeS {
+  height: 350px;
+  width: 200px;
+  left: 175vw;
+  top: 110px;
   z-index: 900;
   position: absolute;
 }

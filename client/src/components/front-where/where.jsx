@@ -16,11 +16,13 @@ class Where extends Component {
   opacityF() {
     let opacityW = document.getElementsByClassName("photoOpacity")[0];
     let opacityM = document.getElementsByClassName("photoOpacity")[1];
+    let opacityT = document.getElementsByClassName("photoOpacity")[2];
     let positionSc = opacityW.getBoundingClientRect().right;
     let positionSce = opacityM.getBoundingClientRect().right;
+    let positionSct = opacityT.getBoundingClientRect().right;
     console.log(positionSc, "la mierder esta");
 
-    let space = window.innerWidth / 4.5;
+    let space = window.innerWidth / 2;
     console.log(positionSce, space);
     if (positionSc < space) {
       opacityW.style.animation = "opacityW 2s ease-out forwards";
@@ -28,6 +30,9 @@ class Where extends Component {
     if (positionSce < space) {
       console.log("BAJANDO OPACITY");
       opacityM.style.animation = "opacityW 2s ease-out forwards";
+    }
+    if (positionSct < space) {
+      opacityT.style.animation = "opacityW 2s ease-out forwards";
     }
   }
 
@@ -49,6 +54,8 @@ class Where extends Component {
         <img className=" berlinS" src={BerlinC}></img>
         <img className="photoOpacity madridD " src={MadridL}></img>
         <img className=" madridS" src={MadridC}></img>
+        <img className="photoOpacity tenerifeD " src={TenerifeL}></img>
+        <img className=" tenerifeS" src={TenerifeC}></img>
       </div>
     );
   }

@@ -1,0 +1,202 @@
+.cloudDetail {
+  height: 50px;
+  width: 100px;
+  z-index: 1000;
+  position: absolute;
+  left: 200px;
+  top: 160px;
+}
+.cloudDetail2 {
+  height: 80px;
+  width: 220px;
+  z-index: 800;
+  position: absolute;
+  left: 900px;
+  top: 40px;
+}
+.cloudDetail3 {
+  height: 80px;
+  width: 200px;
+  z-index: 900;
+  position: absolute;
+  left: 300px;
+  top: 30px;
+}
+.cloudDetail4 {
+  height: 80px;
+  width: 195px;
+  z-index: 1200;
+  position: absolute;
+  left: 173vw;
+  top: 15px;
+}
+.cloudDetail5 {
+  height: 50px;
+  width: 100px;
+  z-index: 1200;
+  position: absolute;
+  left: 185vw;
+  top: 65px;
+}
+.cloudDetail6 {
+  height: 40px;
+  width: 85px;
+  z-index: 1200;
+  position: absolute;
+  left: 115vw;
+  top: 35px;
+}
+.cloudDetail7 {
+  height: 80px;
+  width: 200px;
+  z-index: 1200;
+  position: absolute;
+  left: 215vw;
+  top: 25px;
+}
+.cloudDetail8 {
+  height: 80px;
+  width: 200px;
+  z-index: 1200;
+  position: absolute;
+  left: 265vw;
+  top: 25px;
+}
+.cloudDetail9 {
+  height: 70px;
+  width: 200px;
+  z-index: 1200;
+  position: absolute;
+  left: 305vw;
+  top: 45px;
+}
+.cloudDetail10 {
+  height: 70px;
+  width: 180px;
+  z-index: 1200;
+  position: absolute;
+  left: 375vw;
+  top: 25px;
+}
+.cloudDetail11 {
+  height: 40px;
+  width: 100px;
+  z-index: 1200;
+  position: absolute;
+  left: 345vw;
+  top: 75px;
+}
+.cloudDetail12 {
+  height: 60px;
+  width: 200px;
+  z-index: 1200;
+  position: absolute;
+  left: 410vw;
+  top: 35px;
+}
+.cloudDetail13 {
+  height: 80px;
+  width: 200px;
+  z-index: 1200;
+  position: absolute;
+  left: 470vw;
+  top: 15px;
+}
+.cloudDetail14 {
+  height: 50px;
+  width: 100px;
+  z-index: 1200;
+  position: absolute;
+  left: 580vw;
+  top: 35px;
+}
+.cloudDetail15 {
+  height: 60px;
+  width: 160px;
+  z-index: 1200;
+  position: absolute;
+  left: 545vw;
+  top: 15px;
+}
+.cloudDetail16 {
+  height: 80px;
+  width: 200px;
+  z-index: 1200;
+  position: absolute;
+  left: 510vw;
+  top: 35px;
+}
+.cloudDetail17 {
+  height: 50px;
+  width: 100px;
+  z-index: 1200;
+  position: absolute;
+  left: 684vw;
+  top: 95px;
+}
+.cloudDetail18 {
+  height: 70px;
+  width: 200px;
+  z-index: 1200;
+  position: absolute;
+  left: 614vw;
+  top: 25px;
+}
+.cloudDetail19 {
+  height: 70px;
+  width: 210px;
+  z-index: 1200;
+  position: absolute;
+  left: 710vw;
+  top: 25px;
+}
+.cloudDetail20 {
+  height: 50px;
+  width: 100px;
+  z-index: 1200;
+  position: absolute;
+  left: 775vw;
+  top: 65px;
+}
+.cloudDetail21 {
+  height: 50px;
+  width: 100px;
+  z-index: 1200;
+  position: absolute;
+  left: 720vw;
+  top: 65px;
+}
+.cloudDetail22 {
+  height: 70px;
+  width: 200px;
+  z-index: 1200;
+  position: absolute;
+  left: 810vw;
+  top: 25px;
+}
+.cloudDetail23 {
+  height: 75px;
+  width: 230px;
+  z-index: 1200;
+  position: absolute;
+  left: 875vw;
+  top: 45px;
+}
+
+.cloudMove {
+  animation-name: floats;
+  animation-duration: 4.5s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  transition-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes floats {
+  from {
+    transform: translateX(3.5px) translateY(0px) scale(1, 1);
+  }
+  to {
+    transform: translateX(7.5px) translateY(5px) scale(1.1, 1.1);
+  }
+}

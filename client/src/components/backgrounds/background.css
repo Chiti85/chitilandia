@@ -1,0 +1,37 @@
+.backgroundSize {
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+  position: absolute;
+}
+.backgroundP1 {
+  left: 0;
+  width: 101vw;
+}
+.backgroundP2 {
+  left: 100vw;
+  width: 101vw;
+}
+.backgroundP3 {
+  left: 200vw;
+  width: 101vw;
+}
+.backgroundP4 {
+  left: 300vw;
+}
+.backgroundP5 {
+  left: 400vw;
+}
+.backgroundP6 {
+  left: 500vw;
+}
+.backgroundP7 {
+  left: 600vw;
+}
+.backgroundP8 {
+  left: 700vw;
+  height: 100.1vh;
+}
+.backgroundP9 {
+  left: 800vw;
+}

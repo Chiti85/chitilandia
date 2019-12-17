@@ -5,6 +5,7 @@ import Player from "../Player";
 import Cloud from "../clouds/clouds";
 import Logo from "../logos/logo";
 import Where from "../front-where/where";
+import Background from "../backgrounds/backgrounds";
 
 class ScrollH extends Component {
   constructor(props) {
@@ -74,6 +75,7 @@ class ScrollH extends Component {
           <Logo />
           <Where />
           <Player />
+          <Background />
           <div id="about" className="box one">
             <div>1</div>
           </div>
