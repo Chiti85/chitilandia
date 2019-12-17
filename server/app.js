@@ -8,6 +8,7 @@ require("./config/debugger.config");
 require("./config/middlewares.config")(app);
 require("./config/locals.config");
 require("./config/view-engine.config");
+app.set("view engine", "handlebars");
 
 app.use("/", require("./routes/index"));
 app.use("/MPoint", require("./routes/api.routes"));
