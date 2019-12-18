@@ -11,9 +11,10 @@
   width: 200px;
   left: 115vw;
   top: 110px;
-  z-index: 1000;
+  z-index: 1200;
   position: absolute;
   opacity: 1;
+  pointer-events: none;
   /* animation: opacityW; */
 }
 
@@ -30,9 +31,10 @@
   width: 205px;
   left: 145vw;
   top: 110px;
-  z-index: 1000;
+  z-index: 1200;
   position: absolute;
   opacity: 1;
+  pointer-events: none;
 }
 
 .madridS {
@@ -48,9 +50,10 @@
   width: 200px;
   left: 175vw;
   top: 110px;
-  z-index: 1000;
+  z-index: 1200;
   position: absolute;
   opacity: 1;
+  pointer-events: none;
 }
 .tenerifeS {
   height: 350px;
@@ -77,4 +80,52 @@
   100% {
     opacity: 0;
   }
+}
+.minititleB {
+  height: 35px;
+  width: 120px;
+  left: 118vw;
+  top: 350px;
+  z-index: 1000;
+  position: absolute;
+}
+.minititleM {
+  height: 35px;
+  width: 120px;
+  left: 148vw;
+  top: 350px;
+  z-index: 1000;
+  position: absolute;
+}
+.minititleT {
+  height: 35px;
+  width: 140px;
+  left: 177vw;
+  top: 350px;
+  z-index: 1000;
+  position: absolute;
+}
+.botonB {
+  height: 35px;
+  width: 90px;
+  left: 119.3vw;
+  top: 400px;
+  z-index: 1000;
+  position: absolute;
+}
+.botonM {
+  height: 35px;
+  width: 90px;
+  left: 149.3vw;
+  top: 400px;
+  z-index: 1000;
+  position: absolute;
+}
+.botonT {
+  height: 35px;
+  width: 90px;
+  left: 179.3vw;
+  top: 400px;
+  z-index: 1000;
+  position: absolute;
 }

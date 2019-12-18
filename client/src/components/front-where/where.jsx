@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+
 import MadridC from "../../images/div2/madrid-color.png";
 import MadridL from "../../images/div2/madrid-lila.png";
 import BerlinC from "../../images/div2/berlin-color.png";
@@ -6,6 +8,12 @@ import BerlinL from "../../images/div2/berli-lila.png";
 import TenerifeC from "../../images/div2/tenerife-color.png";
 import TenerifeL from "../../images/div2/tenerife-lila.png";
 import TittleWhere from "../../images/div2/tittle.png";
+import TittleBerlin from "../../images/div2/berlintitle.png";
+import TittleMadrid from "../../images/div2/titlemadrid.png";
+import TittleTenerife from "../../images/div2/titletenerife.png";
+import BottonBerlin from "../../images/div2/botton lila.png";
+import BottonMadrid from "../../images/div2/botton lila.png";
+import BottonTenerife from "../../images/div2/botton lila.png";
 import "../front-where/where.css";
 
 class Where extends Component {
@@ -58,6 +66,18 @@ class Where extends Component {
         <img className=" madridS" src={MadridC}></img>
         <img className="photoOpacity tenerifeD " src={TenerifeL}></img>
         <img className=" tenerifeS" src={TenerifeC}></img>
+        <img className="minititleB" src={TittleBerlin}></img>
+        <img className="minititleM" src={TittleMadrid}></img>
+        <img className="minititleT" src={TittleTenerife}></img>
+        <Link to="/where/berlin">
+          <img className="botonB" src={BottonBerlin}></img>
+        </Link>
+        <Link to="/where/madrid">
+          <img className="botonM" src={BottonMadrid}></img>
+        </Link>
+        <Link to="/where/tenerife">
+          <img className="botonT" src={BottonTenerife}></img>
+        </Link>
       </div>
     );
   }

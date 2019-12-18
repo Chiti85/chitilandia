@@ -95,7 +95,7 @@ class ScrollH extends Component {
           <div className="box two">
             <div id="whereI">
               <div id="containerr">
-                <Link to="/where/berlin">
+                {/* <Link to="/where/berlin">
                   <img
                     className="where posB"
                     src="../../image/start button Org.png"
@@ -112,7 +112,7 @@ class ScrollH extends Component {
                     className="where posT"
                     src="../../image/start button Org.png"
                   ></img>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
