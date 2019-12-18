@@ -1,0 +1,177 @@
+.tittleDet7 {
+  width: 270px;
+  height: 110px;
+  z-index: 1100;
+  position: absolute;
+  left: 640vw;
+  top: 25px;
+}
+#proact {
+  display: block;
+  width: 70px;
+  height: 110px;
+  z-index: 1100;
+  position: absolute;
+  left: 618vw;
+  top: 220px;
+  font-family: "Press Start 2P";
+  font-size: 1.7em;
+  color: #2d1902;
+}
+#leader {
+  display: block;
+  width: 70px;
+  height: 110px;
+  z-index: 1100;
+  position: absolute;
+  left: 610vw;
+  top: 295px;
+  font-family: "Press Start 2P";
+  font-size: 1.7em;
+  color: #2d1902;
+}
+#manage {
+  display: block;
+  width: 2500px;
+  height: 110px;
+  z-index: 1100;
+  position: absolute;
+  left: 662vw;
+  top: 220px;
+  font-family: "Press Start 2P";
+  font-size: 1.7em;
+  color: #2d1902;
+}
+#work {
+  display: block;
+  width: 250px;
+  height: 110px;
+  z-index: 1100;
+  position: absolute;
+  left: 670vw;
+  top: 295px;
+  font-family: "Press Start 2P";
+  font-size: 1.7em;
+  color: #2d1902;
+}
+.heatDet {
+  width: 175px;
+  height: 250px;
+  z-index: 1100;
+  position: absolute;
+  left: 644vw;
+  top: 205px;
+}
+
+.circle1Det {
+  width: 300px;
+  height: 300px;
+  z-index: 1200;
+  position: absolute;
+  left: 640vw;
+  top: 190px;
+  opacity: 0.8;
+}
+.circle2Det {
+  width: 300px;
+  height: 300px;
+  z-index: 1100;
+  position: absolute;
+  left: 640vw;
+  top: 192px;
+}
+.atomoDet {
+  width: 75px;
+  height: 75px;
+  z-index: 1300;
+  position: absolute;
+  left: 656.7vw;
+  top: 395px;
+}
+.rueda1Det {
+  width: 45px;
+  height: 45px;
+  z-index: 1300;
+  position: absolute;
+  left: 651.6vw;
+  top: 272px;
+}
+.rueda2Det {
+  width: 65px;
+  height: 65px;
+  z-index: 1300;
+  position: absolute;
+  left: 647vw;
+  top: 235px;
+}
+.bombiDet {
+  width: 65px;
+  height: 95px;
+  z-index: 1300;
+  position: absolute;
+  left: 639vw;
+  top: 200px;
+}
+.luminDet {
+  width: 100px;
+  height: 100px;
+  z-index: 1300;
+  position: absolute;
+  left: 638vw;
+  top: 170px;
+  transform: rotate(20deg);
+  opacity: 1;
+}
+
+.rotationA {
+  animation-name: rotateA;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  transition-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotateA {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.rotationB {
+  animation-name: rotateB;
+  animation-duration: 2.7s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  transition-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotateB {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.luminOpa {
+  animation-name: luminO;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  transition-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes luminO {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
