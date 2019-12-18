@@ -1,3 +1,11 @@
+.tittleWDl {
+  width: 700px;
+  height: 60px;
+  left: 126.5vw;
+  top: 25px;
+  z-index: 1400;
+  position: absolute;
+}
 .berlinD {
   height: 350px;
   width: 200px;

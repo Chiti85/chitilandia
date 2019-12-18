@@ -3,7 +3,7 @@ const MeetingP = require("../models/map.model");
 
 require("dotenv").config();
 
-mongoose.connect("mongodb://localhost/server");
+mongoose.connect(`${process.env.DB}`);
 
 MeetingP.collection.drop();
 

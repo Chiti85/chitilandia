@@ -81,10 +81,10 @@
 .cloudDetail11 {
   height: 40px;
   width: 100px;
-  z-index: 1200;
+  z-index: 1000;
   position: absolute;
   left: 345vw;
-  top: 75px;
+  top: 35px;
 }
 .cloudDetail12 {
   height: 60px;
@@ -97,7 +97,7 @@
 .cloudDetail13 {
   height: 80px;
   width: 200px;
-  z-index: 1200;
+  z-index: 10000;
   position: absolute;
   left: 470vw;
   top: 15px;
@@ -185,7 +185,7 @@
 
 .cloudMove {
   animation-name: floats;
-  animation-duration: 4.5s;
+  animation-duration: 3s;
   animation-fill-mode: both;
   animation-direction: alternate;
   transition-timing-function: ease-in-out;

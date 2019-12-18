@@ -1,0 +1,111 @@
+#videoLeis {
+  width: 392px;
+  height: 288px;
+  left: 434.5vw;
+  top: 108px;
+  z-index: 1000;
+  position: absolute;
+}
+#moremoI {
+  z-index: 18000;
+  opacity: 0;
+  position: absolute;
+  left: 412.3vw;
+  width: 175px;
+  top: 70px;
+  height: 150px;
+  font-family: "Press Start 2P";
+  font-size: 1em;
+  color: #b5121f;
+}
+#textPanel {
+  z-index: 18000;
+  position: absolute;
+  opacity: 0;
+  left: 411.8vw;
+  width: 156px;
+  top: 125px;
+  height: 450px;
+  font-family: "Varela Round";
+  font-size: 0.9em;
+}
+.textInfo {
+  z-index: 1400;
+  position: absolute;
+  opacity: 0;
+  left: 410vw;
+  width: 210px;
+  top: 69px;
+  height: 450px;
+}
+.tvD {
+  width: 650px;
+  height: 440px;
+  left: 429vw;
+  top: 62px;
+  z-index: 1200;
+  position: absolute;
+  opacity: 1;
+  pointer-events: none;
+}
+.tittlDL {
+  left: 484vw;
+  z-index: 10000;
+  position: absolute;
+  width: 70px;
+  height: 440px;
+  top: 60px;
+}
+#pressP {
+  font-family: "Press Start 2P";
+  left: 443vw;
+  z-index: 10000;
+  position: absolute;
+  width: 500px;
+  font-size: 1.4em;
+  top: 20px;
+  opacity: 1;
+  color: #efcf31;
+  animation-name: colours;
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  transition-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+#pressP2 {
+  font-family: "Press Start 2P";
+  left: 443vw;
+  z-index: 9000;
+  position: absolute;
+  width: 500px;
+  font-size: 1.4em;
+  top: 20px;
+  color: #4ab5ce;
+}
+
+@keyframes colours {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes itgrows {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  99.999% {
+    opacity: 0.99;
+  }
+  100% {
+    opacity: 1;
+  }
+}

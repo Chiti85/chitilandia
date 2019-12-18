@@ -1,8 +1,96 @@
 .logoDetailA {
   height: 80px;
   width: 70px;
-  top: 175px;
+  top: 195px;
   left: 225vw;
+  z-index: 10000;
+  position: absolute;
+}
+.logoDetailB {
+  height: 80px;
+  width: 80px;
+  top: 195px;
+  left: 235vw;
+  z-index: 10000;
+  position: absolute;
+}
+.logoDetailC {
+  height: 80px;
+  width: 80px;
+  top: 195px;
+  left: 245vw;
+  z-index: 10000;
+  position: absolute;
+}
+.logoDetailD {
+  height: 80px;
+  width: 70px;
+  top: 195px;
+  left: 255vw;
+  z-index: 10000;
+  position: absolute;
+}
+.logoDetailE {
+  height: 80px;
+  width: 80px;
+  top: 195px;
+  left: 265vw;
+  z-index: 10000;
+  position: absolute;
+}
+.logoDetailF {
+  height: 80px;
+  width: 80px;
+  top: 195px;
+  left: 275vw;
+  z-index: 10000;
+  position: absolute;
+}
+.logoDetailG {
+  height: 80px;
+  width: 80px;
+  top: 350px;
+  left: 225vw;
+  z-index: 10000;
+  position: absolute;
+}
+.logoDetailH {
+  height: 80px;
+  width: 80px;
+  top: 350px;
+  left: 245vw;
+  z-index: 10000;
+  position: absolute;
+}
+.logoDetailI {
+  height: 80px;
+  width: 80px;
+  top: 350px;
+  left: 235vw;
+  z-index: 10000;
+  position: absolute;
+}
+.logoDetailJ {
+  height: 80px;
+  width: 80px;
+  top: 350px;
+  left: 255vw;
+  z-index: 10000;
+  position: absolute;
+}
+.logoDetailK {
+  height: 80px;
+  width: 80px;
+  top: 350px;
+  left: 265vw;
+  z-index: 10000;
+  position: absolute;
+}
+.logoDetailL {
+  height: 80px;
+  width: 80px;
+  top: 350px;
+  left: 275vw;
   z-index: 10000;
   position: absolute;
 }
@@ -28,8 +116,96 @@
 .shadowDetailA {
   height: 80px;
   width: 70px;
-  top: 178px;
+  top: 198px;
   left: 224.2vw;
+  z-index: 900;
+  position: absolute;
+}
+.shadowDetailB {
+  height: 80px;
+  width: 80px;
+  top: 198px;
+  left: 234.2vw;
+  z-index: 900;
+  position: absolute;
+}
+.shadowDetailC {
+  height: 80px;
+  width: 70px;
+  top: 198px;
+  left: 244.2vw;
+  z-index: 900;
+  position: absolute;
+}
+.shadowDetailD {
+  height: 80px;
+  width: 70px;
+  top: 198px;
+  left: 254.2vw;
+  z-index: 900;
+  position: absolute;
+}
+.shadowDetailE {
+  height: 80px;
+  width: 80px;
+  top: 198px;
+  left: 264.2vw;
+  z-index: 900;
+  position: absolute;
+}
+.shadowDetailF {
+  height: 80px;
+  width: 80px;
+  top: 198px;
+  left: 274.2vw;
+  z-index: 900;
+  position: absolute;
+}
+.shadowDetailG {
+  height: 80px;
+  width: 70px;
+  top: 353px;
+  left: 224.2vw;
+  z-index: 900;
+  position: absolute;
+}
+.shadowDetailH {
+  height: 80px;
+  width: 70px;
+  top: 353px;
+  left: 244.2vw;
+  z-index: 900;
+  position: absolute;
+}
+.shadowDetailI {
+  height: 80px;
+  width: 70px;
+  top: 353px;
+  left: 234.2vw;
+  z-index: 900;
+  position: absolute;
+}
+.shadowDetailJ {
+  height: 80px;
+  width: 70px;
+  top: 353px;
+  left: 254.2vw;
+  z-index: 900;
+  position: absolute;
+}
+.shadowDetailK {
+  height: 80px;
+  width: 70px;
+  top: 353px;
+  left: 264.2vw;
+  z-index: 900;
+  position: absolute;
+}
+.shadowDetailL {
+  height: 80px;
+  width: 70px;
+  top: 353px;
+  left: 274.2vw;
   z-index: 900;
   position: absolute;
 }
@@ -49,4 +225,12 @@
   to {
     transform: translateY(14px);
   }
+}
+.tittleDt {
+  height: 130px;
+  width: 350px;
+  top: 30px;
+  left: 236vw;
+  z-index: 900;
+  position: absolute;
 }

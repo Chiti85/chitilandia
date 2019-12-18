@@ -1,0 +1,156 @@
+.tittleDet4 {
+  height: 75px;
+  width: 600px;
+  z-index: 1000;
+  position: absolute;
+  left: 329vw;
+  top: 25px;
+}
+#subtittleDiv4 {
+  width: 450px;
+  font-family: "Press Start 2P";
+  color: #f6df34;
+  z-index: 1000;
+  position: absolute;
+  left: 335.5vw;
+  top: 120px;
+  font-size: 0.9em;
+}
+.coin1Detl {
+  height: 110px;
+  width: 110px;
+  top: 170px;
+  left: 330vw;
+  z-index: 10000;
+  position: absolute;
+  opacity: 1;
+}
+.coinP1Detl {
+  height: 110px;
+  width: 110px;
+  top: 170px;
+  left: 330vw;
+  z-index: 9000;
+  position: absolute;
+}
+.coin2Detl {
+  height: 110px;
+  width: 110px;
+  top: 170px;
+  left: 345vw;
+  z-index: 10000;
+  position: absolute;
+  opacity: 1;
+}
+.coinP2Detl {
+  height: 110px;
+  width: 110px;
+  top: 170px;
+  left: 345vw;
+  z-index: 9000;
+  position: absolute;
+}
+.coin3Detl {
+  height: 110px;
+  width: 110px;
+  top: 170px;
+  left: 360vw;
+  z-index: 10000;
+  position: absolute;
+  opacity: 1;
+}
+.coinP3Detl {
+  height: 110px;
+  width: 110px;
+  top: 170px;
+  left: 360vw;
+  z-index: 9000;
+  position: absolute;
+}
+.coin4Detl {
+  height: 110px;
+  width: 110px;
+  top: 350px;
+  left: 330vw;
+  z-index: 10000;
+  position: absolute;
+  opacity: 1;
+}
+.coinP4Detl {
+  height: 110px;
+  width: 110px;
+  top: 350px;
+  left: 330vw;
+  z-index: 9000;
+  position: absolute;
+}
+.coin5Detl {
+  height: 110px;
+  width: 110px;
+  top: 350px;
+  left: 345vw;
+  z-index: 10000;
+  position: absolute;
+  opacity: 1;
+}
+.coinP5Detl {
+  height: 110px;
+  width: 110px;
+  top: 350px;
+  left: 345vw;
+  z-index: 9000;
+  position: absolute;
+}
+.coin6Detl {
+  height: 110px;
+  width: 110px;
+  top: 350px;
+  left: 360vw;
+  z-index: 10000;
+  position: absolute;
+  opacity: 1;
+}
+.coinP6Detl {
+  height: 110px;
+  width: 110px;
+  top: 350px;
+  left: 360vw;
+  z-index: 9000;
+  position: absolute;
+}
+.coinOpa420 {
+  animation-name: Opa402;
+  animation-duration: 1s;
+  animation-delay: 2.2s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  transition-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+#moveCoin {
+  display: block;
+  z-index: 1000;
+  animation-name: CoinUp;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  transition-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes CoinUp {
+  from {
+    transform: translateY(25px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+@keyframes Opa402 {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

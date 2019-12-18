@@ -7,11 +7,16 @@ import Logo from "../logos/logo";
 import Where from "../front-where/where";
 import Background from "../backgrounds/backgrounds";
 import Div1 from "../div1/div1";
+import Div4 from "../div4/div4";
+import Leismo from "../leismo/leismo";
+import Loading from "../loading/loading";
 
 class ScrollH extends Component {
   constructor(props) {
     super(props);
-
+    this.state = {
+      isLoading: true
+    };
     this.redirectTrack = this.redirectTrack.bind(this);
   }
 
@@ -72,9 +77,15 @@ class ScrollH extends Component {
     return (
       <div id="container">
         <div id="track">
+          {this.state.isLoading ? <Loading /> : null}
+          {this.state.isLoading
+            ? setTimeout(() => this.setState({ isLoading: false }), 4500)
+            : null}
           <Cloud />
+          <Leismo />
           <Logo />
           <Where />
+          <Div4 />
           <Div1 />
           <Player />
           <Background />
@@ -109,44 +120,7 @@ class ScrollH extends Component {
             <div id="tecSkills">3</div>
           </div>
           <div id="proj" className="box four">
-            <div>
-              <Link to="/project/1">
-                <img
-                  className="where"
-                  src="../../image/start button Org.png"
-                ></img>
-              </Link>
-              <Link to="/project/2">
-                <img
-                  className="where"
-                  src="../../image/start button Org.png"
-                ></img>
-              </Link>
-              <Link to="/project/3">
-                <img
-                  className="where"
-                  src="../../image/start button Org.png"
-                ></img>
-              </Link>
-              <Link to="/project/4">
-                <img
-                  className="where"
-                  src="../../image/start button Org.png"
-                ></img>
-              </Link>
-              <Link to="/project/5">
-                <img
-                  className="where"
-                  src="../../image/start button Org.png"
-                ></img>
-              </Link>
-              <Link to="/project/6">
-                <img
-                  className="where"
-                  src="../../image/start button Org.png"
-                ></img>
-              </Link>
-            </div>
+            <div></div>
           </div>
           <div id="leismo" className="box one">
             <div>5</div>

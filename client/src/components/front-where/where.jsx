@@ -5,6 +5,7 @@ import BerlinC from "../../images/div2/berlin-color.png";
 import BerlinL from "../../images/div2/berli-lila.png";
 import TenerifeC from "../../images/div2/tenerife-color.png";
 import TenerifeL from "../../images/div2/tenerife-lila.png";
+import TittleWhere from "../../images/div2/tittle.png";
 import "../front-where/where.css";
 
 class Where extends Component {
@@ -50,6 +51,7 @@ class Where extends Component {
   render() {
     return (
       <div>
+        <img className="tittleWDl " src={TittleWhere}></img>
         <img className="photoOpacity berlinD " src={BerlinL}></img>
         <img className=" berlinS" src={BerlinC}></img>
         <img className="photoOpacity madridD " src={MadridL}></img>

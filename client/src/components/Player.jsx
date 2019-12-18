@@ -12,14 +12,20 @@ import "./Player.css";
 export class Player extends Component {
   constructor() {
     super();
-    this.state = {};
+    this.state = {
+      idleAnimation: true
+    };
     this.imagesMove = undefined;
     this.frame = 0;
     this.imageSet = 0;
   }
 
+  // if(dom.getPlayer.posX > window.innerWidth*4 < window.innerWidth*6)
+
   walk() {
-    this.frame++;
+    if (this.state.idleAnimation)
+      //this.setState(cambiar a false el state)
+      this.frame++;
     console.log(this.imagesMove);
     if (this.frame % 10 === 0) {
       this.imagesMove[this.imageSet].classList.remove("shown");

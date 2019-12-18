@@ -18,6 +18,8 @@ const Div1 = () => {
           five centuries, but also the leap into electronic typesetting,
           remaining essentially unchanged. It was popularised in
         </div>
+        <div id="containerZ">Scroll to continue =></div>
+        <div id="containerW">Scroll to continue =></div>
         <img className="squareSize " src={Square}></img>
         <img className="photoSize " src={PhotoM}></img>
       </div>

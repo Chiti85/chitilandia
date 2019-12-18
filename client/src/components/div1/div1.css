@@ -7,7 +7,7 @@
   top: 70px;
 }
 .squareSize {
-  width: 400px;
+  width: 600px;
   height: 270px;
   z-index: 1000;
   position: absolute;
@@ -22,19 +22,52 @@
   left: 37vw;
   top: 195px;
 }
-#div1p {
-  display: block;
-  z-index: 1300;
-  position: absolute;
-  left: 44vw;
-}
+
 #containerX {
-  width: 320px;
+  width: 480px;
   height: 250px;
   z-index: 1300;
   position: absolute;
   left: 47vw;
-  top: 238px;
-  font-family: "Times New Roman", Times, serif;
+  top: 245px;
+  font-family: "Varela Round", sans-serif;
   font-size: 0.9em;
+}
+#containerZ {
+  width: 410px;
+  height: 250px;
+  z-index: 1300;
+  position: absolute;
+  opacity: 1;
+  left: 52vw;
+  top: 380px;
+  font-family: "Press Start 2P";
+  font-size: 1.2em;
+  color: #ffbbcc;
+  animation-name: transV;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  transition-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+#containerW {
+  width: 410px;
+  height: 250px;
+  z-index: 1200;
+  position: absolute;
+  left: 52vw;
+  top: 380px;
+  font-family: "Press Start 2P";
+  font-size: 1.2em;
+  color: #be97dc;
+}
+
+@keyframes transV {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }

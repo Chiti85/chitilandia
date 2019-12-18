@@ -1,0 +1,107 @@
+#fullp {
+  background-color: #ffcccc;
+  width: 100vw;
+  height: 100vh;
+  z-index: 900000;
+  position: absolute;
+  left: 0vw;
+}
+#cespedLoading {
+  width: 300px;
+  height: 100px;
+  z-index: 1000000;
+  position: absolute;
+  left: 37.7vw;
+  top: 320px;
+}
+#pacma1Loading {
+  width: 60px;
+  height: 70px;
+  z-index: 1000000;
+  position: absolute;
+  left: 53vw;
+  top: 190px;
+  animation-name: GoshUp;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  transition-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+#pacma2Loading {
+  width: 60px;
+  height: 70px;
+  z-index: 1000000;
+  position: absolute;
+  left: 46vw;
+  top: 190px;
+  animation-name: GoshUp;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  transition-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+#pacma3Loading {
+  width: 60px;
+  height: 70px;
+  z-index: 1000000;
+  position: absolute;
+  left: 39vw;
+  top: 190px;
+  animation-name: GoshUp;
+  animation-duration: 1s;
+  animation-delay: 0;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  transition-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes GoshUp {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(30px);
+  }
+}
+#leterLoading {
+  width: 250px;
+  height: 70px;
+  z-index: 1020000;
+  position: absolute;
+  left: 39vw;
+  top: 440px;
+  font-family: "Press Start 2P";
+  font-size: 1.3em;
+  color: #ffeecc;
+  opacity: 1;
+  animation-name: fontLoadingC;
+  animation-duration: 1.3s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  transition-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+#leterLoading2 {
+  width: 250px;
+  height: 70px;
+  z-index: 1000000;
+  position: absolute;
+  left: 39vw;
+  top: 440px;
+  font-family: "Press Start 2P";
+  font-size: 1.3em;
+  color: #be97dc;
+}
+
+@keyframes fontLoadingC {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
