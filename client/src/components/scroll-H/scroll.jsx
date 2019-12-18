@@ -10,6 +10,7 @@ import Div1 from "../div1/div1";
 import Div4 from "../div4/div4";
 import Leismo from "../leismo/leismo";
 import Loading from "../loading/loading";
+import Div6 from "../div6/div6";
 
 class ScrollH extends Component {
   constructor(props) {
@@ -85,6 +86,7 @@ class ScrollH extends Component {
           <Leismo />
           <Logo />
           <Where />
+          <Div6 />
           <Div4 />
           <Div1 />
           <Player />

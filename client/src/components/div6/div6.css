@@ -1,0 +1,196 @@
+.div6Box1 {
+  width: 370px;
+  height: 100px;
+  z-index: 10000;
+  position: absolute;
+  left: 515vw;
+  top: 165px;
+  background-color: #fcf9ec;
+  border: 10px solid #67eaca;
+}
+#div6Box1P {
+  font-family: "Varela Round";
+  font-size: 0.8em;
+  margin: 15px 5px 5px 15px;
+}
+.div6Box2 {
+  width: 370px;
+  height: 100px;
+  z-index: 10000;
+  position: absolute;
+  left: 518vw;
+  top: 315px;
+  background-color: #fcf9ec;
+  border: 10px solid #67eaca;
+}
+#div6Box2P {
+  font-family: "Varela Round";
+  font-size: 0.8em;
+  margin: 15px 5px 5px 15px;
+}
+.div6Box3 {
+  width: 370px;
+  height: 100px;
+  z-index: 10000;
+  position: absolute;
+  left: 558vw;
+  top: 315px;
+  background-color: #fcf9ec;
+  border: 10px solid #67eaca;
+}
+#div6Box3P {
+  font-family: "Varela Round";
+  font-size: 0.8em;
+  margin: 15px 5px 5px 15px;
+}
+.div6Box4 {
+  width: 370px;
+  height: 100px;
+  z-index: 10000;
+  position: absolute;
+  left: 555vw;
+  top: 165px;
+  background-color: #fcf9ec;
+  border: 10px solid #67eaca;
+}
+#div6Box4P {
+  font-family: "Varela Round";
+  font-size: 0.8em;
+  margin: 15px 5px 5px 15px;
+}
+.Pdiv6D1 {
+  display: block;
+  font-family: "Press Start 2P";
+  font-size: 1.3em;
+  color: #cc4455;
+  left: 512vw;
+  top: 137px;
+  z-index: 12000;
+  position: absolute;
+}
+.Pdiv6D2 {
+  display: block;
+  font-family: "Press Start 2P";
+  font-size: 1.3em;
+  color: #cc4455;
+  left: 515vw;
+  top: 288px;
+  z-index: 12000;
+  position: absolute;
+}
+.Pdiv6D3 {
+  display: block;
+  font-family: "Press Start 2P";
+  font-size: 1.3em;
+  color: #cc4455;
+  left: 552vw;
+  top: 137px;
+  z-index: 12000;
+  position: absolute;
+}
+.Pdiv6D4 {
+  display: block;
+  font-family: "Press Start 2P";
+  font-size: 1.3em;
+  color: #cc4455;
+  left: 555vw;
+  top: 288px;
+  z-index: 12000;
+  position: absolute;
+}
+.movePdiv6 {
+  animation-name: changeCL;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  transition-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes changeCL {
+  from {
+    color: #cc4455;
+  }
+  to {
+    color: #06ba8b;
+  }
+}
+.movePdiv6B {
+  animation-name: changeCLB;
+  animation-duration: 2.2s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  transition-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+@keyframes changeCLB {
+  from {
+    color: #cc4455;
+  }
+  to {
+    color: #06ba8b;
+  }
+}
+.titlediv6 {
+  width: 580px;
+  height: 100px;
+  z-index: 10000;
+  position: absolute;
+  left: 529vw;
+  top: 25px;
+}
+.arrow {
+  font-family: "Press Start 2P";
+  font-size: 1.9em;
+  z-index: 10000;
+  position: absolute;
+  transform: rotate(90deg);
+  color: #cc4455;
+  left: 545.5vw;
+  top: 190px;
+}
+.arrow2 {
+  font-family: "Press Start 2P";
+  font-size: 1.9em;
+  z-index: 10000;
+  position: absolute;
+  transform: rotate(90deg);
+  color: #cc4455;
+  left: 548vw;
+  top: 335px;
+}
+.arrowColor {
+  animation-name: arrowColor;
+  animation-duration: 1.6s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  transition-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes arrowColor {
+  from {
+    color: #cc4455;
+  }
+  to {
+    color: #7c064d;
+  }
+}
+
+.arrowMove {
+  animation-name: arrowMob;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  transition-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes arrowMob {
+  from {
+    transform: translateY(0) rotate(90deg);
+  }
+  to {
+    transform: translateY(15px) rotate(90deg);
+  }
+}

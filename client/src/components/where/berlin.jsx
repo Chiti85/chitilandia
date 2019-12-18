@@ -9,6 +9,7 @@ const Berlin = () => {
         cities="Berlin"
         center={{ lat: 52.522317, lng: 13.413204 }}
         zoom={11}
+        className="mapBerlin1"
       />
       <h1>HELLOOOOOO!!! Motherfucker</h1>
       <Link to={{ pathname: `/where` }}>

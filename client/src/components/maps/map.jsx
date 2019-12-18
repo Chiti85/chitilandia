@@ -6,6 +6,7 @@ import {
   Marker,
   InfoWindow
 } from "react-google-maps";
+import { mapStyle } from "./mapStyle";
 import Service from "../../service/map.service";
 
 class Map extends Component {
@@ -39,6 +40,7 @@ class Map extends Component {
         defaultZoom={this.props.zoom}
         // defaultCenter={{ lat: 28.487523, lng: -16.312859 }}
         defaultCenter={this.props.center}
+        options={{ styles: mapStyle }}
       >
         {this.state.cities.map(places => (
           <Marker
@@ -51,8 +53,8 @@ class Map extends Component {
               this.selectedLocation(places);
             }}
             icon={{
-              url: "../../../image/next button Org.png",
-              scaledSize: new window.google.maps.Size(25, 25)
+              url: "../../../image/icon-markermap.png",
+              scaledSize: new window.google.maps.Size(35, 35)
             }}
           ></Marker>
         ))}
