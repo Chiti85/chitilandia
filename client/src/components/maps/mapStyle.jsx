@@ -4,7 +4,19 @@ export const mapStyle = [
     elementType: "geometry.fill",
     stylers: [
       {
+        color: "#90563b"
+      },
+      {
         visibility: "off"
+      }
+    ]
+  },
+  {
+    featureType: "landscape.natural",
+    elementType: "geometry",
+    stylers: [
+      {
+        color: "#90563b"
       }
     ]
   },
@@ -13,7 +25,7 @@ export const mapStyle = [
     elementType: "geometry.fill",
     stylers: [
       {
-        color: "#4e91c3"
+        color: "#90563b"
       }
     ]
   },
@@ -22,10 +34,13 @@ export const mapStyle = [
     elementType: "geometry.fill",
     stylers: [
       {
-        color: "#4fb14f"
+        color: "#8dc63f"
       },
       {
         visibility: "on"
+      },
+      {
+        weight: 1
       }
     ]
   },
@@ -43,7 +58,7 @@ export const mapStyle = [
     elementType: "geometry.fill",
     stylers: [
       {
-        color: "#ec4343"
+        color: "#f6df34"
       },
       {
         weight: 1
@@ -55,7 +70,7 @@ export const mapStyle = [
     elementType: "geometry",
     stylers: [
       {
-        color: "#ec4343"
+        color: "#f6df34"
       }
     ]
   },
@@ -64,7 +79,7 @@ export const mapStyle = [
     elementType: "geometry.fill",
     stylers: [
       {
-        color: "#4e91c3"
+        color: "#b4f9fc"
       }
     ]
   }

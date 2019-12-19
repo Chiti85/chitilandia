@@ -58,11 +58,11 @@
 }
 #pressP {
   font-family: "Press Start 2P";
-  left: 443vw;
+  left: 440vw;
   z-index: 10000;
   position: absolute;
   width: 500px;
-  font-size: 1.4em;
+  font-size: 1.8em;
   top: 20px;
   opacity: 1;
   color: #efcf31;
@@ -75,11 +75,11 @@
 }
 #pressP2 {
   font-family: "Press Start 2P";
-  left: 443vw;
+  left: 440vw;
   z-index: 9000;
   position: absolute;
   width: 500px;
-  font-size: 1.4em;
+  font-size: 1.8em;
   top: 20px;
   color: #4ab5ce;
 }
@@ -109,3 +109,6 @@
     opacity: 1;
   }
 }
+
+/* LO DEL GLOBO SERIA POSITION FIXED Y CAMBIO DE OPACIDADA 
+A SIUPERVELOCIDAD CADA UNA CON UN DELAY? */

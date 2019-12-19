@@ -7,13 +7,32 @@ import Robo5 from "../images/Run (5).png";
 import Robo6 from "../images/Run (6).png";
 import Robo7 from "../images/Run (7).png";
 import Robo8 from "../images/Run (8).png";
+import Robot1A from "../images/playermove1/JumpMelee (1).png";
+import Robot2A from "../images/playermove1/JumpMelee (2).png";
+import Robot3A from "../images/playermove1/JumpMelee (3).png";
+import Robot4A from "../images/playermove1/JumpMelee (4).png";
+import Robot5A from "../images/playermove1/JumpMelee (5).png";
+import Robot6A from "../images/playermove1/JumpMelee (6).png";
+import Robot7A from "../images/playermove1/JumpMelee (7).png";
+import Robot8A from "../images/playermove1/JumpMelee (8).png";
+import Robot1C from "../images/playermove1/RunShoot (1).png";
+import Robot2C from "../images/playermove1/RunShoot (2).png";
+import Robot3C from "../images/playermove1/RunShoot (3).png";
+import Robot4C from "../images/playermove1/RunShoot (4).png";
+import Robot5C from "../images/playermove1/RunShoot (5).png";
+import Robot6C from "../images/playermove1/RunShoot (6).png";
+import Robot7C from "../images/playermove1/RunShoot (7).png";
+import Robot8C from "../images/playermove1/RunShoot (8).png";
+import Robot9C from "../images/playermove1/RunShoot (9).png";
 import "./Player.css";
 
 export class Player extends Component {
   constructor() {
     super();
     this.state = {
-      idleAnimation: true
+      idleAnimation: true,
+      animationA: true,
+      animationB: true
     };
     this.imagesMove = undefined;
     this.frame = 0;
@@ -35,14 +54,16 @@ export class Player extends Component {
         : this.imageSet++;
 
       this.imagesMove[this.imageSet].classList.add("shown");
-      //   this.imagesMove[this.imageSet].classList.remove("hidden");
-      //   this.imagesMove[this.imageSet + 1].classList.add("hidden");
-      // this.imagesMove[this.imageSet + 1].classList.remove("shown");
-      // this.imagesMove[this.imageSet + 1].classList.add("shown");
     }
-    // else {
-    //   return this.imagesMove[this.imageSet].classList.remove("shown");
-    // }
+
+    //Cambiar animacion
+    if (window.scrollX > 800) {
+      this.setState({ animationA: false });
+
+      if (window.scrollX > 10800) {
+        this.setState({ animationB: false });
+      }
+    }
   }
 
   componentDidMount() {
@@ -52,7 +73,30 @@ export class Player extends Component {
 
   render() {
     console.log(Robo1, "holaaaaaa paso por aqui");
-    return (
+    return this.state.animationA ? (
+      <div>
+        <img className="player shown " src={Robot1A}></img>
+        <img className="player hidden" src={Robot2A}></img>
+        <img className="player hidden" src={Robot3A}></img>
+        <img className="player hidden" src={Robot4A}></img>
+        <img className="player hidden" src={Robot5A}></img>
+        <img className="player hidden" src={Robot6A}></img>
+        <img className="player hidden" src={Robot7A}></img>
+        <img className="player hidden" src={Robot8A}></img>
+      </div>
+    ) : this.state.animationB ? (
+      <div>
+        <img className="player shown " src={Robot1C}></img>
+        <img className="player hidden" src={Robot2C}></img>
+        <img className="player hidden" src={Robot3C}></img>
+        <img className="player hidden" src={Robot4C}></img>
+        <img className="player hidden" src={Robot5C}></img>
+        <img className="player hidden" src={Robot6C}></img>
+        <img className="player hidden" src={Robot7C}></img>
+        <img className="player hidden" src={Robot8C}></img>
+        <img className="player hidden" src={Robot9C}></img>
+      </div>
+    ) : (
       <div>
         <img className="player shown " src={Robo1}></img>
         <img className="player hidden" src={Robo2}></img>

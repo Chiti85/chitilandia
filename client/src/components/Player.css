@@ -7,7 +7,7 @@
 
 .player {
   position: fixed;
-  left: 0;
+  left: 30vw;
   top: 445px;
   height: 200px;
   width: 200px;
