@@ -25,54 +25,54 @@ class Navbar extends Component {
         <div className="navbar">
           <img
             onClick={() => this.update(0)}
-            src="../../image/next button G.png"
+            src="../../../image/navbarAbout.png"
             id="navbarI"
           ></img>
 
           <img
             onClick={() => this.update(window.innerWidth)}
-            src="../../image/next button Org.png"
+            src="../../../image/navbarWhere.png"
             id="navbarI"
           ></img>
 
           <img
             onClick={() => this.update(window.innerWidth * 2)}
             id="navbarI"
-            src="../../image/next button G.png"
+            src="../../../image/navbarTecS.png"
           ></img>
 
           <img
             onClick={() => this.update(window.innerWidth * 3)}
             id="navbarI"
-            src="../../image/next button Org.png"
+            src="../../../image/navbarProjects.png"
           ></img>
 
           <img
             onClick={() => this.update(window.innerWidth * 4)}
             id="navbarI"
-            src="../../image/next button G.png"
+            src="../../../image/navbarLeismo.png"
           ></img>
 
           <img
             onClick={() => this.update(window.innerWidth * 5)}
             id="navbarI"
-            src="../../image/next button Org.png"
+            src="../../../image/navbarWExp..png"
           ></img>
           <img
             onClick={() => this.update(window.innerWidth * 6)}
             id="navbarI"
-            src="../../image/next button G.png"
+            src="../../../image/navbarSoftS.png"
           ></img>
 
           <img
             onClick={() => this.update(window.innerWidth * 7)}
             id="navbarI"
-            src="../../image/next button Org.png"
+            src="../../../image/navbarEdu.png"
           ></img>
           <img
             onClick={() => this.update(window.innerWidth * 8)}
             id="navbarI"
-            src="../../image/next button G.png"
+            src="../../../image/navbarCONTACT.png"
           ></img>
         </div>
       </nav>
