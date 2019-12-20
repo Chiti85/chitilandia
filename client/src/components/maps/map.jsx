@@ -35,6 +35,7 @@ class Map extends Component {
   };
 
   render() {
+    console.log(this.state.selectedLocation);
     return (
       <GoogleMap
         defaultZoom={this.props.zoom}
@@ -70,11 +71,21 @@ class Map extends Component {
             }}
           >
             <div>
-              <h2>{this.state.selectedLocation.name}</h2>
-              <h3>{this.state.selectedLocation.address}</h3>
-              <h3>{this.state.selectedLocation.schedule}</h3>
-              <h3>{this.state.selectedLocation.phone}</h3>
-              <h3>{this.state.selectedLocation.description}</h3>
+              <h2 style={{ fontFamily: "'Press Start 2P'", color: "blue" }}>
+                {this.state.selectedLocation.name}
+              </h2>
+              <h4 style={{ fontFamily: "'Varela Round'", color: "grey" }}>
+                {this.state.selectedLocation.address}
+              </h4>
+              <h4 style={{ fontFamily: "'Varela Round'", color: "grey" }}>
+                {this.state.selectedLocation.schedule}
+              </h4>
+              <h4 style={{ fontFamily: "'Varela Round'", color: "grey" }}>
+                {this.state.selectedLocation.phone}
+              </h4>
+              <h4 style={{ fontFamily: "'Varela Round'", color: "grey" }}>
+                {this.state.selectedLocation.description}
+              </h4>
             </div>
           </InfoWindow>
         )}
