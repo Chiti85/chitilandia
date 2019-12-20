@@ -8,7 +8,7 @@ require("./config/debugger.config");
 require("./config/middlewares.config")(app);
 require("./config/locals.config");
 
-app.use("/", require("./routes/api.routes"));
+// app.use("/", require("./routes/api.routes"));
 app.use("/MPoint", require("./routes/api.routes"));
 // CAMBIO
 
