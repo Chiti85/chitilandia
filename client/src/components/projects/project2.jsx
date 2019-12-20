@@ -7,7 +7,7 @@ import Photo22 from "../../images/project2/base zebra.png";
 import Photo23 from "../../images/project2/base oso.png";
 import Photo24 from "../../images/project2/base medusa.png";
 import Photo25 from "../../images/project2/base elefante.png";
-import BackPhoto from "../../images/project2/fodop2prj.png";
+import BackPhoto from "../../images/project2/Captura de pantalla 2019-12-20 a las 4.51.44.png";
 
 const Project2 = () => {
   return (

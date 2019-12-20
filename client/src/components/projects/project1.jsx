@@ -2,14 +2,14 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../../components/projects/project1.css";
 
-import Portada from "../../images/poject1/portada dayland behance.png";
+import Portada from "../../images/poject1/Captura de pantalla 2019-12-20 a las 4.48.04.png";
 import Photo2Pro from "../../images/poject1/interior 1 Diario daylann UK.png";
 import Photo3Pro from "../../images/poject1/interior 2 mundo daylann UK.png";
 import Photo4Pro from "../../images/poject1/interior 3 memo pad 2 daylann UK.png";
 import Photo5Pro from "../../images/poject1/interior 3 monthly tracker daylann UK.png";
 import Photo6Pro from "../../images/poject1/interior 3 shooping list daylann UK.png";
 import Photo7Pro from "../../images/poject1/interior 6 end of the month daylann UK.png";
-import Photo8Pro from "../../images/poject1/fondop1.png";
+import Photo8Pro from "../../images/poject1/Captura de pantalla 2019-12-20 a las 4.50.17.png";
 
 const Project1 = () => {
   return (

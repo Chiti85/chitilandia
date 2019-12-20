@@ -83,7 +83,7 @@ class ScrollH extends Component {
         <div id="track">
           {this.state.isLoading ? <Loading /> : null}
           {this.state.isLoading
-            ? setTimeout(() => this.setState({ isLoading: false }), 4500)
+            ? setTimeout(() => this.setState({ isLoading: false }), 3000)
             : null}
           <Cloud />
           <Leismo />
@@ -98,30 +98,11 @@ class ScrollH extends Component {
           <Player />
           <Background />
           <div id="about" className="box one">
-            <div>1</div>
+            <div></div>
           </div>
           <div className="box two">
             <div id="whereI">
-              <div id="containerr">
-                {/* <Link to="/where/berlin">
-                  <img
-                    className="where posB"
-                    src="../../image/start button Org.png"
-                  ></img>
-                </Link>
-                <Link to="/where/madrid">
-                  <img
-                    className="where posM"
-                    src="../../image/start button Org.png"
-                  ></img>
-                </Link>
-                <Link to="/where/tenerife">
-                  <img
-                    className="where posT"
-                    src="../../image/start button Org.png"
-                  ></img>
-                </Link> */}
-              </div>
+              <div id="containerr"></div>
             </div>
           </div>
           <div className="box three">
@@ -131,56 +112,19 @@ class ScrollH extends Component {
             <div></div>
           </div>
           <div id="leismo" className="box one">
-            <div>5</div>
+            <div></div>
           </div>
           <div id="wExp" className="box two">
-            <div>
-              <Link to="/experience/1">
-                <img
-                  className="where"
-                  src="../../image/start button Org.png"
-                ></img>
-              </Link>
-              <Link to="/experience/2">
-                <img
-                  className="where"
-                  src="../../image/start button Org.png"
-                ></img>
-              </Link>
-              <Link to="/experience/3">
-                <img
-                  className="where"
-                  src="../../image/start button Org.png"
-                ></img>
-              </Link>
-              <Link to="/experience/4">
-                <img
-                  className="where"
-                  src="../../image/start button Org.png"
-                ></img>
-              </Link>
-              <Link to="/experience/5">
-                <img
-                  className="where"
-                  src="../../image/start button Org.png"
-                ></img>
-              </Link>
-              <Link to="/experience/6">
-                <img
-                  className="where"
-                  src="../../image/start button Org.png"
-                ></img>
-              </Link>
-            </div>
+            <div></div>
           </div>
           <div id="softSkills" className="box three">
-            <div>7</div>
+            <div></div>
           </div>
           <div id="edu" className="box four">
-            <div>8</div>
+            <div></div>
           </div>
           <div id="contact" className="box three">
-            <div>9</div>
+            <div></div>
           </div>
         </div>
       </div>
