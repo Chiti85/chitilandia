@@ -2,6 +2,7 @@ require("dotenv").config();
 require("hbs");
 const express = require("express");
 const app = express();
+const path = require("path");
 
 require("./config/mongoose.config");
 require("./config/debugger.config");
