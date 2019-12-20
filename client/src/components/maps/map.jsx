@@ -88,7 +88,7 @@ const WrappedMap = withScriptjs(withGoogleMap(Map));
 function TheMap(props) {
   console.log(process.env.REACT_APP_GOOGLEKEY);
   return (
-    <div style={{ width: "50vw", height: "50vh" }}>
+    <div style={{ width: "100vw", height: "70vh" }}>
       <WrappedMap
         {...props}
         googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLEKEY}`}

@@ -46,7 +46,7 @@ export class Player extends Component {
       //this.setState(cambiar a false el state)
       this.frame++;
     console.log(this.imagesMove);
-    if (this.frame % 10 === 0) {
+    if (this.frame % 10 === 0 && this.imagesMove.length) {
       this.imagesMove[this.imageSet].classList.remove("shown");
 
       this.imageSet == this.imagesMove.length - 1 // 7

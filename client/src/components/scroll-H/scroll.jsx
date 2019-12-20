@@ -13,6 +13,7 @@ import Loading from "../loading/loading";
 import Div6 from "../div6/div6";
 import Div7 from "../div7/div7";
 import Div8 from "../div8/div8";
+import Div9 from "../div9/div9";
 
 class ScrollH extends Component {
   constructor(props) {
@@ -88,6 +89,7 @@ class ScrollH extends Component {
           <Leismo />
           <Logo />
           <Where />
+          <Div9 />
           <Div8 />
           <Div7 />
           <Div6 />

@@ -1,0 +1,92 @@
+.tittlediv9Dtl {
+  width: 500px;
+  height: 100px;
+  left: 835vw;
+  top: 35px;
+  z-index: 100000;
+  position: absolute;
+}
+.telephone {
+  z-index: 100000;
+  position: absolute;
+  left: 856vw;
+  top: 175px;
+  width: 40px;
+  height: 60px;
+}
+h3 {
+  z-index: 100000;
+  position: absolute;
+  left: 861vw;
+  top: 175px;
+  width: 300px;
+  font-family: "Press Start 2P";
+  font-size: 1.4em;
+  color: black;
+}
+.linkedin {
+  z-index: 100000;
+  position: absolute;
+  left: 856vw;
+  top: 265px;
+  width: 360px;
+  height: 60px;
+}
+.Behance {
+  z-index: 100000;
+  position: absolute;
+  left: 856vw;
+  top: 345px;
+  width: 360px;
+  height: 60px;
+}
+.Github {
+  z-index: 100000;
+  position: absolute;
+  left: 856vw;
+  top: 425px;
+  width: 360px;
+  height: 60px;
+}
+.GMail {
+  z-index: 100000;
+  position: absolute;
+  left: 856vw;
+  top: 505px;
+  width: 360px;
+  height: 60px;
+}
+.bottonMove9 {
+  animation-name: slice;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  transition-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slice {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(15px);
+  }
+}
+.bottonMove9B {
+  animation-name: slice2;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  transition-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slice2 {
+  from {
+    transform: translateX(15px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
