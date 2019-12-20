@@ -13,8 +13,10 @@ const Div9 = () => {
   return (
     <>
       <img className="tittlediv9Dtl" src={Tittlediv9}></img>
-      <img className="telephone" src={Telephone}></img>
-      <h3>+34 687359041</h3>
+      <a href="tel:+34687359041">
+        <img className="telephone" src={Telephone}></img>
+        <h3>+34 687359041</h3>
+      </a>
       <a
         href="https://www.linkedin.com/in/chiti-bonnet-molina/"
         target="_blank"
