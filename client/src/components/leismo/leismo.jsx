@@ -38,12 +38,11 @@ class Leismo extends Component {
           More Info
         </h6>
         <p className="expansd" id="textPanel">
-          Of type and scrambled it to make a type specimen book. It has survived
-          not only five centuries, but also the leap into electronic
-          typesetting, remaining essentially unchanged. It was popularised in
-          the 1960s with the release of Letraset sheets containing Lorem Ipsum
-          passages, and more recently with desktop publishing software like
-          Aldus PageMaker including versions of Lorem Ipsum.
+          Leismo is a short film that participated in the Spanish short film
+          festival Notofilm, in which I worked as a screenwriter and producer,
+          the short film tells us about how Sara and Elisa have a linguistic
+          discussion that will highlight their present, solidify their past and
+          establish the basis of a hopeful future for embassies.
         </p>
         <img className="textInfo expansd" src={TextInfo}></img>
 

@@ -20,16 +20,16 @@
 
 .contactButtonMap {
   display: block;
-  width: 150px;
-  height: 80px;
+  width: 360px;
+  height: 60px;
   justify-content: space-between;
-  margin-left: 150px;
+  margin-right: 35px;
   margin-top: -25px;
   margin-bottom: 35px;
 }
 .cotaineeerZ {
   display: flex;
-  margin-left: 550px;
+  margin-left: 150px;
   margin-bottom: 35px;
 }
 .helloDear {
@@ -38,16 +38,17 @@
   font-family: "Press Start 2P";
   font-size: 2.5em;
   color: blue;
-  margin-top: 120px;
-  margin-left: 615px;
+  margin-top: 110px;
+  margin-left: 600px;
 }
 .wellcomeMSM {
   z-index: 100000;
   position: absolute;
   font-family: "Press Start 2P";
   font-size: 0.8em;
-  color: red;
-  margin-top: 180px;
-  width: 650px;
-  margin-left: 570px;
+  color: #c3081b;
+  margin-top: 160.5px;
+  width: 620px;
+  margin-left: 590px;
+  line-height: 130%;
 }

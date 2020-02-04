@@ -185,7 +185,7 @@
 
 .cloudMove {
   animation-name: floats;
-  animation-duration: 3s;
+  animation-duration: 2.3s;
   animation-fill-mode: both;
   animation-direction: alternate;
   transition-timing-function: ease-in-out;

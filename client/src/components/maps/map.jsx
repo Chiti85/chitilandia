@@ -55,7 +55,7 @@ class Map extends Component {
             }}
             icon={{
               url: "../../../image/icon-markermap.png",
-              scaledSize: new window.google.maps.Size(35, 35)
+              scaledSize: new window.google.maps.Size(35, 40)
             }}
           ></Marker>
         ))}
@@ -71,19 +71,53 @@ class Map extends Component {
             }}
           >
             <div>
-              <h2 style={{ fontFamily: "'Press Start 2P'", color: "blue" }}>
+              <h2
+                style={{
+                  fontFamily: "'Press Start 2P'",
+                  color: "blue",
+                  textTransform: "capitalize"
+                }}
+              >
                 {this.state.selectedLocation.name}
               </h2>
-              <h4 style={{ fontFamily: "'Varela Round'", color: "grey" }}>
+              <h4
+                style={{
+                  fontFamily: "'Press Start 2P'",
+                  color: "#797E84",
+                  fontSize: "0.8em",
+                  textTransform: "initial"
+                }}
+              >
                 {this.state.selectedLocation.address}
               </h4>
-              <h4 style={{ fontFamily: "'Varela Round'", color: "grey" }}>
+              <h4
+                style={{
+                  fontFamily: "'Press Start 2P'",
+                  color: "#797E84",
+                  fontSize: "0.8em",
+                  textTransform: "initial"
+                }}
+              >
                 {this.state.selectedLocation.schedule}
               </h4>
-              <h4 style={{ fontFamily: "'Varela Round'", color: "grey" }}>
+              <h4
+                style={{
+                  fontFamily: "'Press Start 2P'",
+                  color: "#797E84",
+                  fontSize: "0.8em",
+                  textTransform: "initial"
+                }}
+              >
                 {this.state.selectedLocation.phone}
               </h4>
-              <h4 style={{ fontFamily: "'Varela Round'", color: "grey" }}>
+              <h4
+                style={{
+                  fontFamily: "'Press Start 2P'",
+                  color: "#797E84",
+                  fontSize: "0.8em",
+                  textTransform: "initial"
+                }}
+              >
                 {this.state.selectedLocation.description}
               </h4>
             </div>

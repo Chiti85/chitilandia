@@ -5,7 +5,9 @@ import "../../components/where/berlin.css";
 
 import ChitiP2 from "../../images/div1/foto.png";
 import Comic2 from "../../images/whereI/bocadillo.png";
-import ContactW2 from "../../images/div9/botonmailto.png";
+import ContactW2 from "../../images/div9/gmail.png";
+import downBT from "../../images/whereI/dwl_cv.png";
+import CVCBMM from "../../images/whereI/cv.pdf";
 
 const Mardrid = () => {
   return (
@@ -17,24 +19,31 @@ const Mardrid = () => {
       />
       <h1 className="helloDear">Hola!</h1>
       <p className="wellcomeMSM">
-        Many desktop publishing packages and web page editors now use Lorem
-        Ipsum as their default model text, and a search for 'lorem ipsum' will
-        uncover many web sites still in their infancy. Various versions have
-        evolved over the years, sometimes by accident, sometimes on purpose
-        (injected humour and the like).
+        Madrid is a city that I know very well, it´s great to spend time in the
+        city and enjoy it´s good weather in winter and it´s refreshing summers
+        drinking beer in La Latina or Malasaña, that is why whenever I start a
+        FreeLancer project in the city I like to go to one of these bars to get
+        to know each other and establish the basics of the project in which we
+        will working together.
       </p>
       <div className="cotaineeer">
         <img className="photoDtailDiv2" src={ChitiP2}></img>
         <img className="comicDtl" src={Comic2}></img>
       </div>
+
       <div className="cotaineeerZ">
         <a href="mailto:macobonn@gmail.com?Subject=Hello!!%20Chiti%20let´s%20talk%20about%20new%20projects!">
           <img className="contactButtonMap" src={ContactW2}></img>
         </a>
+
+        <a href={CVCBMM} download="Cv Concepción Bonnet">
+          <img className="contactButtonMap" src={downBT}></img>
+        </a>
+
         <Link to={{ pathname: `/where` }}>
           <img
             className="where  contactButtonMap"
-            src="../../../image/navbarWhere.png"
+            src="../../../image/where_botton.png"
           ></img>
         </Link>
       </div>

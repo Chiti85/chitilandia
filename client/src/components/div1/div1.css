@@ -22,16 +22,22 @@
   left: 37vw;
   top: 195px;
 }
-
+#wellcomed1 {
+  text-transform: uppercase;
+  font-size: 1.3em;
+  color: black;
+}
 #containerX {
   width: 480px;
   height: 250px;
   z-index: 1300;
   position: absolute;
-  left: 47vw;
+  left: 48vw;
   top: 245px;
-  font-family: "Varela Round", sans-serif;
-  font-size: 0.9em;
+  font-family: "Press Start 2P";
+  font-size: 0.7em;
+  color: rgb(94, 94, 94);
+  line-height: 130%;
 }
 #containerZ {
   width: 410px;
@@ -40,7 +46,7 @@
   position: absolute;
   opacity: 1;
   left: 52vw;
-  top: 380px;
+  top: 405px;
   font-family: "Press Start 2P";
   font-size: 1.2em;
   color: #ffbbcc;
@@ -57,7 +63,7 @@
   z-index: 1200;
   position: absolute;
   left: 52vw;
-  top: 380px;
+  top: 405px;
   font-family: "Press Start 2P";
   font-size: 1.2em;
   color: #be97dc;

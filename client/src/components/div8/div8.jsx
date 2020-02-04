@@ -22,26 +22,35 @@ const Div8 = () => {
         <img id="SQBorder" className="UKDt" src={UKFlag}></img>
         <img id="SQBorder" className="SPDt" src={SPFlag}></img>
       </div>
-      <img className="Div8TittleDt" src={TittleDiv8}></img>
-      <img className="leinnDt logomoveDiv8" src={LogoLeinn}></img>
-      <img className="leinnDtSh logomoveDiv8" src={LogoLeinnSh}></img>
-      <p id="textLeinn">
-        LEINN Bilingual Degree <br></br>University of Mondragón 2014 - 2016
-      </p>
+      <div className="cageD8 cageD8L"></div>
+      <div>
+        <img className="Div8TittleDt" src={TittleDiv8}></img>
+        <img className="leinnDt logomoveDiv8" src={LogoLeinn}></img>
+        <img className="leinnDtSh logomoveDiv8" src={LogoLeinnSh}></img>
+        <p id="textLeinn">
+          LEINN Bilingual Degree <br></br>University of Mondragón 2016
+        </p>
+      </div>
+
+      <div className="cageD8 cageD8I"></div>
       <img className="ironDt logomoveDiv8B" src={LogoIronH}></img>
       <img className="LogoIronHSH logomoveDiv8B" src={LogoIronHSH}></img>
       <p id="textIron">
         Web Development Bootcamp <br></br>Ironhack, Madrid 2019
       </p>
+
+      <div className="cageD8 cageD8C"></div>
       <img className="compluDt logomoveDiv8B" src={LogoComplu}></img>
       <img className="compluDtSh logomoveDiv8B" src={LogoCompluSH}></img>
       <p id="textComplu">
         Audiovisual Communication <br></br>Complutense University of Madrid 2017
       </p>
+
+      <div className="cageD8 cageD8X"></div>
       <img className="uaxDt logomoveDiv8" src={LogoUax}></img>
       <img className="uaxDtSh logomoveDiv8" src={LogoUaxSH}></img>
       <p id="textUax">
-        Degree in Pharmacy <br></br>University Alfonso X, Madrid <br></br> 2013
+        Degree in Pharmacy <br></br>University Alfonso X, 2013
       </p>
     </>
   );

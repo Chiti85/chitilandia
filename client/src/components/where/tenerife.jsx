@@ -5,7 +5,9 @@ import "../../components/where/berlin.css";
 
 import ChitiP3 from "../../images/div1/foto.png";
 import Comic3 from "../../images/whereI/bocadillo.png";
-import ContactW3 from "../../images/div9/botonmailto.png";
+import ContactW3 from "../../images/div9/gmail.png";
+import downBT2 from "../../images/whereI/dwl_cv.png";
+import CVCBMM2 from "../../images/whereI/cv.pdf";
 
 const Tenerife = () => {
   return (
@@ -17,11 +19,12 @@ const Tenerife = () => {
       />
       <h1 className="helloDear">Hola!</h1>
       <p className="wellcomeMSM">
-        Many desktop publishing packages and web page editors now use Lorem
-        Ipsum as their default model text, and a search for 'lorem ipsum' will
-        uncover many web sites still in their infancy. Various versions have
-        evolved over the years, sometimes by accident, sometimes on purpose
-        (injected humour and the like).
+        Tenerife, an island full of surprises where I grew up, is a tropical
+        paradise where I can enjoy, the sea, the food and it´s people that make
+        anyone feel at home, placed near Africa this islands (are seven of them)
+        are from Spain and are a spectacular place to undertake a project
+        together and talk about it in any of my three favorite coffee shops on
+        the island.
       </p>
       <div className="cotaineeer">
         <img className="photoDtailDiv2" src={ChitiP3}></img>
@@ -32,10 +35,14 @@ const Tenerife = () => {
           <img className="contactButtonMap" src={ContactW3}></img>
         </a>
 
+        <a href={CVCBMM2} download="Cv Concepción Bonnet">
+          <img className="contactButtonMap" src={downBT2}></img>
+        </a>
+
         <Link to={{ pathname: `/where` }}>
           <img
             className="where contactButtonMap"
-            src="../../../image/navbarWhere.png"
+            src="../../../image/where_botton.png"
           ></img>
         </Link>
       </div>

@@ -2,71 +2,87 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../../components/projects/project1.css";
 
-import Portada from "../../images/poject1/Captura de pantalla 2019-12-20 a las 4.48.04.png";
-import Photo2Pro from "../../images/poject1/interior 1 Diario daylann UK.png";
-import Photo3Pro from "../../images/poject1/interior 2 mundo daylann UK.png";
-import Photo4Pro from "../../images/poject1/interior 3 memo pad 2 daylann UK.png";
-import Photo5Pro from "../../images/poject1/interior 3 monthly tracker daylann UK.png";
-import Photo6Pro from "../../images/poject1/interior 3 shooping list daylann UK.png";
-import Photo7Pro from "../../images/poject1/interior 6 end of the month daylann UK.png";
-import Photo8Pro from "../../images/poject1/Captura de pantalla 2019-12-20 a las 4.50.17.png";
+import Portada from "../../images/poject1/Captura de pantalla 2020-01-31 a las 19.41.18.png";
+import Photo2Pro from "../../images/poject1/Captura de pantalla 2020-01-31 a las 19.34.59.png";
+import Photo3Pro from "../../images/poject1/Captura de pantalla 2020-01-31 a las 19.30.42.png";
+import Photo4Pro from "../../images/poject1/Captura de pantalla 2020-01-31 a las 19.32.16.png";
+import Photo5Pro from "../../images/poject1/Captura de pantalla 2020-01-31 a las 19.41.18.png";
+import Photo6Pro from "../../images/poject1/Captura de pantalla 2020-01-31 a las 19.31.12.png";
+import Photo8Pro from "../../images/poject1/pantalla-video.png";
+import ArrowNew from "../../images/poject1/arrowNew.png";
+import ExclamationP from "../../images/poject1/excalamationponit.png";
+
+import ButtonGmail from "../../images/div9/gmail.png";
+import ButtonGitHub from "../../images/poject1/botonGitHub.png";
 
 const Project1 = () => {
   return (
     <>
       <img className="PortDtl" src={Portada}></img>
+      <img className="exclaP arrowSign" src={ExclamationP}></img>
+      <img className="pointerArw arrowSign" src={ArrowNew}></img>
+      <p className="cachP">Welcome to Inception!!</p>
       <p className="pProjects">
-        Dayland is a project developed for the entrepreneur Zoa Luengo, she
-        approached me with the idea of creating a new thank-you diary to replace
-        the one she has now for sale to her clients; After talking about the
-        project we decided to go further and make a monthly that covers multiple
-        functionalities. This personal diary has a utility of only one month,
-        the goal is that the user can carry his Dayland anywhere making it light
-        and manageable.
-        <br></br>
-        The Dayland is a menship that has the necessary tools not only to keep
-        track of our daily habits, but also gives you the possibility to track
-        your economy, your healthy habits and your projects within the planning
-        of your day to day on a weekly and monthly basis.
+        Of course I´m just joking, but talk about the web that you actually are
+        is kind of the concept of the Christofer Nolan Film, no? <br></br> Well
+        let´s talk about my web cv, this Project is one of the many developed in
+        my bootcamp, to make it happen I use react js and the google map API.
       </p>
       <img className="photo2Proj" src={Photo2Pro}></img>
-      <p className="subtittlePDtl">
-        Main personal daily organization page / Pagina de organización diaria
-        personal principal
+      <p className="pProjects">
+        This is a powerfull front that let the user arround my profesional live
+        and projects; about the design because of the horizontal scroll that let
+        the user see a web in an atipycal way, a way reserved to platforms´s
+        videogames, is for that I chose comeback to the pixel art that have a
+        link with the classic videogames.
       </p>
       <img className="photo2Proj" src={Photo3Pro}></img>
-      <p className="subtittlePDtl">
-        Memory of my trips / Memoria de mis viajes
+      <p className="pProjects">
+        With this Project my objetive is give to the user a different aproah to
+        a think, the Cv, that is allways to similar one to another, also with
+        this web I wanted to show my style of design and my knoledge on React.js
+        at the same time.
       </p>
       <img className="photo2Proj" src={Photo4Pro}></img>
-      <p className="subtittlePDtl">Memo pad / Block de notas</p>
+      <p className="pProjects">
+        In the making of this Project I learn a lot, from time management to how
+        to sleep two hours and survive, this was my last work inside of a nine
+        week bootcamp and in the last two weeks I try to créate something that
+        mirror most of my learnings.
+      </p>
       <img className="photo2Proj" src={Photo5Pro}></img>
-      <p className="subtittlePDtl">
-        Annual Calendar and Monthly Tracker / Calendar Anual y Rastreador
-        Mensual.
+      <p className="pProjects">
+        In conclusion this project was an exited, amazing and tired journey that
+        bring me a lot of experiences and knowledge that for sure I´m going to
+        use in all my new projects from here on.
       </p>
       <img className="photo2Proj" src={Photo6Pro}></img>
-      <p className="subtittlePDtl">
-        The healthy shopping list / La lista de la compra saludable.
-      </p>
-      <img className="photo2Proj" src={Photo7Pro}></img>
-      <p className="subtittlePDtl">
-        Economic summary for the end of the month / Resumen económico para el
-        final de mes.
-      </p>
-      <p className="pProjects">
-        For the cover I was inclined to design four possible alternatives, in
-        the end the client decided on the one with the black vertical letters,
-        being a tool created for monthly use, I created covers in different
-        colors, thus generating a series.
-      </p>
-      <img className="PortDtl2" src={Photo8Pro}></img>
-      <Link to={{ pathname: `/proj` }}>
-        <img
-          className="where bottonBack"
-          src="../../../image/navbarProjects.png"
-        ></img>
-      </Link>
+      <img className="pcRetro" src={Photo8Pro}></img>
+      <div id="chitilandVd">
+        <iframe
+          src="https://www.youtube.com/embed/ZTTzcXSLjhI"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          id="chitilandVd"
+        ></iframe>
+      </div>
+
+      <div className="cotaineeerZ">
+        <a href="mailto:macobonn@gmail.com?Subject=Hello!!%20Chiti%20let´s%20talk%20about%20new%20projects!">
+          <img className="contactButtonMap" src={ButtonGmail}></img>
+        </a>
+        <a href="https://github.com/Chiti85" target="_blank">
+          <img className="contactButtonMap" src={ButtonGitHub}></img>
+        </a>
+
+        <Link to={{ pathname: `/proj` }}>
+          <img
+            className="where contactButtonMap"
+            src="../../../image/botonBackProject.png"
+          ></img>
+        </Link>
+      </div>
     </>
   );
 };

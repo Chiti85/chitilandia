@@ -94,7 +94,7 @@
 }
 .leinnDt {
   width: 220px;
-  height: 120px;
+  height: 150px;
   left: 734vw;
   top: 285px;
   z-index: 160000;
@@ -103,9 +103,9 @@
 }
 .leinnDtSh {
   width: 152px;
-  height: 55px;
-  left: 736.5vw;
-  top: 330px;
+  height: 64px;
+  left: 736vw;
+  top: 333px;
   z-index: 16000;
   position: absolute;
   opacity: 0.4;
@@ -124,7 +124,7 @@
 .uaxDt {
   width: 120px;
   height: 120px;
-  left: 776.5vw;
+  left: 780.5vw;
   top: 285px;
   z-index: 160000;
   position: absolute;
@@ -133,16 +133,16 @@
 .uaxDtSh {
   width: 120px;
   height: 120px;
-  left: 776vw;
-  top: 279px;
+  left: 780vw;
+  top: 290px;
   z-index: 16000;
   position: absolute;
   opacity: 0.4;
 }
 #textUax {
-  width: 400px;
+  width: 410px;
   height: 120px;
-  left: 755vw;
+  left: 752.7vw;
   top: 315px;
   z-index: 160000;
   position: absolute;
@@ -183,4 +183,34 @@
   100% {
     transform: translateX(4px);
   }
+}
+.cageD8 {
+  border: 4px solid #32407b;
+  background-color: white;
+  padding: 10px;
+  z-index: 15000;
+  position: absolute;
+  opacity: 90%;
+  height: 30px;
+}
+.cageD8L {
+  width: 520px;
+  left: 711vw;
+  top: 317px;
+}
+.cageD8I {
+  width: 500px;
+
+  left: 716vw;
+  top: 150px;
+}
+.cageD8C {
+  width: 525px;
+  left: 756vw;
+  top: 150px;
+}
+.cageD8X {
+  width: 530px;
+  left: 751.5vw;
+  top: 317px;
 }

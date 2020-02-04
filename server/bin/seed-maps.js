@@ -87,7 +87,7 @@ const pointsM = [
     schedule: "10:00–20:00",
     phone: "+34 922 84 90 90",
     description:
-      "there is nothing better than talking about projects surrounded by the best contemporary art seen in the islands",
+      "There is nothing better than talking about projects surrounded by the best contemporary art seen in the islands",
     cords: {
       coordinates: [28.464169, -16.249528]
     }

@@ -11,12 +11,14 @@ const Div1 = () => {
       <div>
         <img className="AboutSize " src={TittleA}></img>
         <div id="containerX">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in
+          <div id="wellcomed1">Hello and Welcome to my Web CV!!</div>
+          <br></br>
+          <br></br>
+          My name is Concepción Bonnet and I invite you to explore my
+          professional experience, skills and projects so that you can know
+          better my professional side; on the other hand personally I am a
+          creative and restless person who loves to discover new things ,
+          experiment and pizza !!
         </div>
         <div id="containerZ">Scroll to continue =></div>
         <div id="containerW">Scroll to continue =></div>

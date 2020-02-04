@@ -106,7 +106,7 @@ class ScrollH extends Component {
             </div>
           </div>
           <div className="box three">
-            <div id="tecSkills">3</div>
+            <div id="tecSkills"></div>
           </div>
           <div id="proj" className="box four">
             <div></div>
